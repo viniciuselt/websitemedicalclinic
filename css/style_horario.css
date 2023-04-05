@@ -1,0 +1,49 @@
+/* Estilos para a página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para o Header */
+  .header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    max-width: 100px;
+  }
+  
+  /* Estilos para o Content */
+  .content {
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .texto {
+    text-align: justify;
+  }
+  
+  .tabela {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Estilos para o Footer */
+  .footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
