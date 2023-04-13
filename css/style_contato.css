@@ -73,4 +73,18 @@ header {
     text-align: center;
   }
 
-  
+  .logo{
+    height: 200px;
+  }
+
+  @media screen and (max-width: 812px){
+    .logo{
+      width: 120%;
+    }
+  }
+
+  @media screen and (max-width: 400px){
+    .logo{
+      height: 120%;
+    }
+  }
