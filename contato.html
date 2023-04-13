@@ -34,18 +34,19 @@
         </ul>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.834236382802!2d-46.65556538545215!3d-23.556464584686016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59a669d14bdf%3A0xfa8a86240cfc9df9!2sAv.%20Paulista%2C%20234%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001000-000!5e0!3m2!1sen!2sbr!4v1651251261023!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         <h2>Formulário de Contato</h2>
-        <form>
+        <div class="form">
           <label for="nome">Nome:</label>
-          <input type="text" id="nome" name="nome" required>
+          <input type="text" name="nome" placeholder="Digite seu nome" required>
           <label for="email">E-mail:</label>
-          <input type="email" id="email" name="email" required>
+          <input type="email" name="email" placeholder="Digite seu email" required>
           <label for="assunto">Assunto:</label>
-          <input type="text" id="assunto" name="assunto" required>
+          <input type="text" id="assunto" name="assunto" placeholder="Digite seu assunto" required>
+          <br>
           <label for="mensagem">Mensagem:</label>
-          <textarea id="mensagem" name="mensagem" required></textarea>
-          <button type="submit">Enviar</button>
-          <button type="reset">Limpar</button>
-        </form>
+          <textarea placeholder="Digite sua mensagem" required></textarea>
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Limpar" />
+      </div>
       </section>
     </div>
          

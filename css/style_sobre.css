@@ -54,21 +54,6 @@ main {
   margin: 0 auto;
 }
 
-.hor {
-  padding: 20px;
-}
-
-.tabela {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th, td {
-  border: 1px solid #ccc;
-  padding: 8px;
-  text-align: center;
-}
-
 /* Estilos para o rodapé */
 footer {
   background-color: #f0f0f0;

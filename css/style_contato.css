@@ -54,26 +54,60 @@ main {
   margin: 0 auto;
 }
 
-.hor {
-  padding: 20px;
-}
-
-.tabela {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th, td {
-  border: 1px solid #ccc;
-  padding: 8px;
-  text-align: center;
-}
-
 /* Estilos para o rodapé */
 footer {
   background-color: #f0f0f0;
   padding: 20px;
   text-align: center;
+}
+
+.form input[type=text],
+.form input[type=email]{
+    padding-left: 10px;
+    display: block;
+    border-radius: 20px;
+    margin: 10px auto;
+    width:100%;
+    height: 35px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+
+.form textarea{
+    padding-left: 10px;
+    resize: vertical;
+    display: block;
+    border-radius: 20px;
+    margin: 10px auto;
+    width:100%;
+    height: 100px;
+    font-size: 15px;
+}
+
+.form input[type=submit]{
+    padding-left: 10px;
+    display: block;
+    border-radius: 20px;
+    margin: 10px auto;
+    width:50%;
+    height: 35px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #0a67f3;
+    border: 1px solid #ccc;
+}
+
+.form input[type=reset]{
+  padding-left: 10px;
+  display: block;
+  border-radius: 20px;
+  margin: 10px auto;
+  width:50%;
+  height: 35px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f30a0a;
+  border: 1px solid #ccc;
 }
 
 .logo{
